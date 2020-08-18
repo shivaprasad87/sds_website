@@ -204,7 +204,7 @@ class HomeController extends CI_Controller {
 
 	public function hr(Type $var = null)
 	{
-		$where = array("page"=>'home');
+		$where = array("page"=>'hr-services-in-bangalore');
 		$data['meta'] = $this->Home_model->get_table_data('meta_tags',$where);
 		$this->load->view("hr-services",$data);
 	}
