@@ -13,7 +13,7 @@
 <meta property="og:url" content="<?=current_url();?>">
 <meta property="og:description" content="<?=$meta[0]['meta_desc'];?>">
 <meta property="og:type" content="website">
-<meta property="og:image" content="<?=base_url();?>assets/wp-content/uploads/SDSlogo.png">
+<meta property="og:image" content="<?=base_url();?>assets/wp-content/uploads/SDSog.png">
 <meta property="og:image:width" content="1900px" />
 <meta property="og:image:height" content="800px" />
 <meta name="twitter:card" content="summary">
