@@ -14,8 +14,7 @@
 <meta property="og:description" content="<?=$blog->meta_desc;?>">
 <meta property="og:type" content="website">
 <meta property="og:image" content="<?= base_url('uploads/blog_images/'.$blog->image)?>">
-<meta property="og:image:width" content="1900px" />
-<meta property="og:image:height" content="800px" />
+<meta property="og:image:width" content="100%" /> 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@SDS_Tweets">
 <meta name="twitter:title" content="<?=$blog->meta_title;?>">
