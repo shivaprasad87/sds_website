@@ -204,7 +204,9 @@ class HomeController extends CI_Controller {
 
 	public function hr(Type $var = null)
 	{
-		$this->load->view("hr-services");
+		$where = array("page"=>'home');
+		$data['meta'] = $this->Home_model->get_table_data('meta_tags',$where);
+		$this->load->view("hr-services",$data);
 	}
 
 	public function crm_services(Type $var = null)
