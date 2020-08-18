@@ -199,7 +199,9 @@ class HomeController extends CI_Controller {
 	}
 	public function payroll(Type $var = null)
 	{
-		$this->load->view("payroll-services");
+		$where = array("page"=>'payroll-outsourcing-services-in-bangalore');
+		$data['meta'] = $this->Home_model->get_table_data('meta_tags',$where);
+		$this->load->view("payroll-services",$data);
 	}
 
 	public function hr(Type $var = null)
