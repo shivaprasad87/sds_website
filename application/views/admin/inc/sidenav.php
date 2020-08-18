@@ -117,6 +117,7 @@
                     <a class="<?= $this->uri->segment(3) == 'graphics-designing-company-in-bangalore' ? 'collapse-item active' : 'collapse-item'  ?>" href="<?=base_url('admin/metatags/graphics-designing-company-in-bangalore');?>">Design Services Metatags</a>
                     <a class="<?= $this->uri->segment(3) == 'hr-services-in-bangalore' ? 'collapse-item active' : 'collapse-item'  ?>" href="<?=base_url('admin/metatags/hr-services-in-bangalore');?>">HR Services Metatags</a>
                     <a class="<?= $this->uri->segment(3) == 'payroll-outsourcing-services-in-bangalore' ? 'collapse-item active' : 'collapse-item'  ?>" href="<?=base_url('admin/metatags/payroll-outsourcing-services-in-bangalore');?>">Payroll Services Metatags</a>
+                    <a class="<?= $this->uri->segment(3) == 'best-crm-software-in-india' ? 'collapse-item active' : 'collapse-item'  ?>" href="<?=base_url('admin/metatags/best-crm-software-in-india');?>">CRM Services Metatags</a>
                    
                 </div>
                 </div>
