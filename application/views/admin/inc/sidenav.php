@@ -115,6 +115,7 @@
                     <a class="<?= $this->uri->segment(3) == 'web-development-services-in-bangalore' ? 'collapse-item active' : 'collapse-item'  ?>" href="<?=base_url('admin/metatags/web-development-services-in-bangalore');?>">Web Services Metatags</a>
                     <a class="<?= $this->uri->segment(3) == 'content-marketing-services' ? 'collapse-item active' : 'collapse-item'  ?>" href="<?=base_url('admin/metatags/content-marketing-services');?>">Content service Metatags</a>
                     <a class="<?= $this->uri->segment(3) == 'graphics-designing-company-in-bangalore' ? 'collapse-item active' : 'collapse-item'  ?>" href="<?=base_url('admin/metatags/graphics-designing-company-in-bangalore');?>">Design Services Metatags</a>
+                    <a class="<?= $this->uri->segment(3) == 'hr-services-in-bangalore' ? 'collapse-item active' : 'collapse-item'  ?>" href="<?=base_url('admin/metatags/hr-services-in-bangalore');?>">HR Services Metatags</a>
                    
                 </div>
                 </div>
