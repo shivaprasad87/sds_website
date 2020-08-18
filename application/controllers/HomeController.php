@@ -47,7 +47,7 @@ class HomeController extends CI_Controller {
             $this->data['next_blog'] = $this->Common_model->getNextBlog($blog->id);
             $this->data['prev_blog'] = $this->Common_model->getPrevBlog($blog->id);
             $this->data['blog'] = $blog;
-            $this->load->view('inc/blog_header');
+            $this->load->view('inc/blog_header', $this->data);
             $this->load->view('blog_navigation', $this->data);
         }  
           else {

@@ -4,9 +4,10 @@
 <head>
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width, initial-scale=1">
+
 <title><?=$blog->meta_title;?></title>
-<meta name="keywords" content=" <?=$meta[0]['meta_keywords'];?>">
-<meta name="description" content="<?=$meta[0]['meta_desc'];?>">
+<meta name="keywords" content="<?=$blog->meta_keywords;?>">
+<meta name="description" content="<?=$blog->meta_desc;?>">
 <meta property=og:site_name content="Seconds Digital Solutions Pvt Ltd">
 <link rel=icon href=<?=base_url();?>assets/wp-content/uploads/2019/06/favicon.png sizes=32x32>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
