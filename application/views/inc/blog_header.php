@@ -4,41 +4,41 @@
 <head>
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width, initial-scale=1">
-
 <title><?=$blog->meta_title;?></title>
 <meta name="keywords" content="<?=$blog->meta_keywords;?>">
 <meta name="description" content="<?=$blog->meta_desc;?>">
+
+<!----------OG Tags Start-------------------->
+<meta property="og:title" content="<?=$blog->meta_title;?>">
+<meta property="og:url" content="<?=current_url();?>">
+<meta property="og:description" content="<?=$blog->meta_desc;?>">
+<meta property="og:type" content="website">
+<meta property="og:image" content="<?= base_url('uploads/blog_images/'.$blog->image)?>">
+<meta property="og:image:width" content="1900px" />
+<meta property="og:image:height" content="800px" />
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@SDS_Tweets">
+<meta name="twitter:title" content="<?=$blog->meta_title;?>">
+<meta name="twitter:description" content="<?=$blog->meta_desc;?>">      
+<!-------------Og Tags End --------------------->
 <meta property=og:site_name content="Seconds Digital Solutions Pvt Ltd">
 <link rel=icon href=<?=base_url();?>assets/wp-content/uploads/2019/06/favicon.png sizes=32x32>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link type=text/css media=all href=<?=base_url()?>assets/wp-content/cache/autoptimize/css/font.css rel=stylesheet >
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/wp-content/cache/autoptimize/css/slick.css">
-  <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/wp-content/cache/autoptimize/css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/wp-content/cache/autoptimize/css/slick-theme.css">
 <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap-grid.min.css">
-
 <link type=text/css media=all href=<?=base_url()?>assets/wp-content/cache/autoptimize/css/header.css rel=stylesheet>
 <link type=text/css media=all href=<?=base_url()?>assets/wp-content/cache/autoptimize/css/common.css rel=stylesheet>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
-
-
 <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
   -->
-
- 
-
-
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="<?=base_url()?>assets/wp-content/cache/autoptimize/js/slick.js" type="text/javascript" charset="utf-8"></script>
-  
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="<?=base_url()?>assets/wp-content/cache/autoptimize/js/slick.js" type="text/javascript" charset="utf-8"></script> 
 <script src="<?=base_url()?>assets/wp-content/cache/autoptimize/js/slick.js"></script>
-
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
 <script src="<?=base_url()?>assets/jssor/jssor.js" type="text/javascript"></script>
-
 <script src='<?=base_url();?>assets/wp-includes/js/jquery/common.js'></script> 
-
 <script type="text/javascript">
         window.jssor_1_slider_init = function() {
 
@@ -107,5 +107,4 @@
         };
     </script>
 <script defer src="<?=base_url()?>assets/wp-content/cache/autoptimize/js/analyst.js"></script>
-
 </head>
