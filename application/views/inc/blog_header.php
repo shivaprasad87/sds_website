@@ -18,7 +18,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@SDS_Tweets">
 <meta name="twitter:title" content="<?=$blog->meta_title;?>">
-<meta name="twitter:description" content="<?=$blog->meta_desc;?>">      
+<meta name="twitter:description" content="<?=$blog->meta_desc;?>">  
+    
 <!-------------Og Tags End --------------------->
 <meta property=og:site_name content="Seconds Digital Solutions Pvt Ltd">
 <link rel=icon href=<?=base_url();?>assets/wp-content/uploads/2019/06/favicon.png sizes=32x32>

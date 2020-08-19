@@ -13,13 +13,14 @@
 <meta property="og:url" content="<?=current_url();?>">
 <meta property="og:description" content="<?=$meta[0]['meta_desc'];?>">
 <meta property="og:type" content="website">
-<meta property="og:image" content="<?=base_url();?>assets/wp-content/uploads/SDSog.png">
+<meta property="og:image" content="<?=base_url();?>assets/img/og_tag.png">
 <meta property="og:image:width" content="1900px" />
 <meta property="og:image:height" content="800px" />
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@SDS_Tweets">
 <meta name="twitter:title" content="<?=$meta[0]['meta_title'];?>">
-<meta name="twitter:description" content="<?=$meta[0]['meta_desc'];?>">      
+<meta name="twitter:description" content="<?=$meta[0]['meta_desc'];?>">   
+<meta name="twitter:image" content="<?=base_url();?>assets/img/og_tag_twitter.png"> 
 <!-------------Og Tags End --------------------->
 <link rel=icon href=<?=base_url();?>assets/wp-content/uploads/2019/06/favicon.png sizes=32x32>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
