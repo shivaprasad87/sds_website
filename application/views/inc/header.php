@@ -3,12 +3,12 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset=UTF-8>
-<meta itemprop="name" content="<?=$blog->meta_title;?>">
-<meta itemprop="description" content="<?=$blog->meta_desc;?>">
+<meta itemprop="name" content="<?=$meta[0]['meta_title'];?>">
+<meta itemprop="description" content="<?=$meta[0]['meta_desc'];?>">
 <meta itemprop="image" content="<?=base_url();?>assets/img/og_tag_twitter.png">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title><?=$meta[0]['meta_title'];?></title>
-<meta name="keywords" content=" <?=$meta[0]['meta_keywords'];?>">
+<meta name="keywords" content="<?=$meta[0]['meta_keywords'];?>">
 <meta name="description" content="<?=$meta[0]['meta_desc'];?>">
 <?=$meta[0]['google_tags'];?>
 <!----------OG Tags Start-------------------->
