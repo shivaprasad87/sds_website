@@ -215,7 +215,7 @@ class HomeController extends CI_Controller {
 	{
 		$where = array("page"=>'best-crm-software-in-india');
 		$data['meta'] = $this->Home_model->get_table_data('meta_tags',$where);
-		$this->load->view("crm-services");
+		$this->load->view("crm-services",$data);
 	}
 
 }
