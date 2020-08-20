@@ -115,7 +115,7 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Seconds Digital Solutions - Digital Marketing and IT Services In Bangalore",
-  "@id": "<?=base_url();?>assets/img/og_tag_twitter.png",
+  "image": "<?=base_url();?>assets/img/og_tag_twitter.png",
   "url": "<?=current_url();?>",
   "telephone": "7483907745",
   "priceRange": "Call Us @ 7483907745",
