@@ -3,6 +3,9 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 <meta charset=UTF-8>
+<meta itemprop="name" content="<?=$blog->meta_title;?>">
+<meta itemprop="description" content="<?=$blog->meta_desc;?>">
+<meta itemprop="image" content="<?=base_url();?>assets/img/og_tag_twitter.png">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title><?=$meta[0]['meta_title'];?></title>
 <meta name="keywords" content=" <?=$meta[0]['meta_keywords'];?>">
@@ -105,4 +108,79 @@
         };
     </script>
 <script defer src="<?=base_url()?>assets/wp-content/cache/autoptimize/js/analyst.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Seconds Digital Solutions - Digital Marketing and IT Services In Bangalore",
+  "@id": "<?=base_url();?>assets/img/og_tag_twitter.png",
+  "url": "<?=current_url();?>",
+  "telephone": "7483907745",
+  "priceRange": "Call Us @ 7483907745",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No. 11/2, First Floor, Sigma Trident Building, Hayes Road, Off, Richmond Rd",
+    "addressLocality": "Bangalore",
+    "postalCode": "560025",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 12.965799,
+    "longitude": 77.601564
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday" ,
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "18:30"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Seconds Digital Solutions - Digital Marketing and IT Services In Bangalore",
+  "url": "<?=current_url();?>",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Seconds Digital Solutions - Digital Marketing and IT Services In Bangalore",
+  "url": "<?=current_url();?>",
+  "logo": "<?=base_url();?>assets/img/og_tag_twitter.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "7483907745",
+    "contactType": "customer service",
+    "contactOption": "TollFree",
+    "areaServed": "IN",
+    "availableLanguage": ["en","Hindi"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/SecondsDigitalSolutions",
+    "https://twitter.com/SDS_Tweets",
+    "https://www.instagram.com/secondsdigitalsolutions/",
+    "https://www.youtube.com/channel/UCORxFvtnX8RIIYcPtyGhuEw?view_as=subscriber",
+    "https://www.linkedin.com/company/secondsdigitalsolutions/",
+    "https://in.pinterest.com/secondsdigitalsolutions/",
+    "<?=base_url();?>"
+  ]
+}
+</script>
 </head>
