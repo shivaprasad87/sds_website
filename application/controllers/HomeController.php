@@ -169,24 +169,11 @@ class HomeController extends CI_Controller {
            // $this->email->to("shiva@secondsdigital.com");
             $this->email->subject("SDS Contact Form Lead");
             $this->email->message($msg);
-            $this->email->send();
-            redirect("thankyou");
-          //  $sent  = $this->email->send();
-         //   $page = $this->input->post('post');
-       //      if($sent)
-       //      {
-       //      	$this->session->set_flashdata('success', 'Thankyou For Contacting us We will get back to You soon!');
-       //      	if($page=='')
-				   // // redirect("contact-us");
-				   // $this->load->view('thankyou');
-       //          else
-       //          {
-       //          	redirect($page);
-       //          }
-       //          } else {
-       //              $this->session->set_flashdata('error', 'Failed To sent Message');
-       //              redirect( $page);
-       //          }
+            $this->email->send(); 
+            if($page!='')
+            redirect($page."/thankyou");
+        	else
+        	redirect("thankyou");
 	}
 	public function thankyou($value='')
 	{

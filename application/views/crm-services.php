@@ -61,7 +61,7 @@
                                                                     <div class="pi-col-sm-4 the-form pi-text-right pi-center-text-xs">
                                                                         <div style="position:relative; padding-bottom: 60px;">
                                                                             <br>
-                                                                            <form action="<?=base_url("HomeController/Contact_mail ");?>" method="post" id="contactForm">
+                                                                            <form action="<?=base_url('HomeController/Contact_mail/').$this->uri->segment(1);?>" method="post" id="contactForm">
 
                                                                                 <div class="container"> </div>
                                                                                 <div class="pi-row pi-grid-small-margins">

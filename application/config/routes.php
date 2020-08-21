@@ -95,3 +95,4 @@ $route['profile'] = 'dashboard/profile';
 $route['blog/(:any)'] = "HomeController/blog_view/$1";
 $route['404_override']         = 'errors';
 $route['translate_uri_dashes'] = FALSE;
+$route['(:any)/thankyou'] = "HomeController/thankyou/$1";
