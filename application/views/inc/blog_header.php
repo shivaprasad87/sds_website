@@ -185,4 +185,30 @@
   ]
 }
 </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "<?=current_url();?>"
+      },
+      "headline": "<p><strong><?=$blog->meta_title;?></strong></p>",
+      "image": "<?= base_url('uploads/blog_images/'.$blog->image)?>",
+      "datePublished": "<?=$blog->date_added?>",
+      "dateModified": "<?=$blog->date_added?>",
+      "author": {
+        "@type": "Person",
+        "name": "<?=$blog->author?>"
+      },
+       "publisher": {
+        "@type": "Organization",
+        "name": "Seconds Digital Solutions",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "<?=base_url();?>assets/img/og_tag_twitter.png"
+        }
+      }
+    }
+    </script>
 </head>
