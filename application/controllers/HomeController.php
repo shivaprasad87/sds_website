@@ -165,7 +165,7 @@ class HomeController extends CI_Controller {
             $this->email->initialize(email_config());
 
             $this->email->from("info@secondsdigital.com", "Admin");
-            $this->email->to("shiva@secondsdigital.com,pratyush@secondsdigital.com,info@secondsdigital.com");
+            $this->email->to("shiva@secondsdigital.com.test-google-a.com,pratyush@secondsdigital.com.test-google-a.com,info@secondsdigital.com.test-google-a.com");
            // $this->email->to("shiva@secondsdigital.com");
             $this->email->subject("SDS Contact Form Lead");
             $this->email->message($msg);
