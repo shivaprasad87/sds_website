@@ -40,7 +40,7 @@
 									
 										<li class="widget-container widget_nav_menu"><!-- widgets list -->
 								
-											<h1 class="title-widget">Useful links</h1>
+											<h1 class="title-widget">Menu</h1>
 											
 											<ul>
 												<li><a  href="<?=base_url()?>"><i class="fa fa-angle-double-right"></i>Home</a></li>
@@ -62,7 +62,7 @@
 									
 										<li class="widget-container widget_nav_menu"><!-- widgets list -->
 								
-											<h1 class="title-widget">Useful links</h1>
+											<h1 class="title-widget">Our Expertise</h1>
 											
 											<ul>
 												<li><a  href="<?=base_url()?>"><i class="fa fa-angle-double-right"></i>Digital Advertising</a></li>
@@ -85,7 +85,7 @@
 									
 										<li class="widget-container widget_nav_menu"><!-- widgets list -->
 								
-											<h1 class="title-widget">Useful links</h1>
+											<h1 class="title-widget">Our Expertise</h1>
 											
 											<ul>
 											
