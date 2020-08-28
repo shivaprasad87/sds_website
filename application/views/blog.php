@@ -71,9 +71,9 @@
                                                             <div id=dslc-module-ee20fbe7c6f class="dslc-module-front dslc-module-DSLC_Image dslc-in-viewport-check dslc-in-viewport-anim-none dslc-module-handle-like-regular ">
                                                                 <div class="dslc-image-container blogbanner">
                                                                 <!-- <h1 class="" style="color: #fb9935;text-align:center">"Your's Digital Directory"</h1>
-                                                             -->    <div class="affiliate">
+                                                             --> <!--    <div class="affiliate">
                                                 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=secondsdigita-21&marketplace=amazon&region=IN&placement=B0876FK9X3&asins=B0876FK9X3&linkId=3dd82d508d31791ca2131371d491d91a&show_border=true&link_opens_in_new_window=true"></iframe>
-                                            </div>
+                                            </div> -->
                                                                 </div>
                                                             </div>
                                                           
