@@ -118,7 +118,7 @@
                                                             <div class="info">
                                                                 <h3 class="title">ADDRESS</h3>
                                                                 <p>
-                                                                    <a href="https://g.page/secondsdigital?share"> <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp No. 11/2, First Floor, 
+                                                                    <a href="https://g.page/secondsdigital?share"> <i class="fa fa-map-marker" aria-hidden="true"></i> <!-- &nbsp No. 11/2,  -->First Floor, 
                                                                                                                     Sigma Trident Building, Hayes Road,
                                                                                                                 Off, Richmond Rd, Bengaluru, Karnataka 560025.</a>
                                                                                                                 <br>

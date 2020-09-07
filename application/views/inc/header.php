@@ -119,7 +119,7 @@
   "priceRange": "Call Us @ 7483907745",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "No. 11/2, First Floor, Sigma Trident Building, Hayes Road, Off, Richmond Rd",
+    "streetAddress": "First Floor, Sigma Trident Building, Hayes Road, Off, Richmond Rd",
     "addressLocality": "Bangalore",
     "postalCode": "560025",
     "addressCountry": "IN"
